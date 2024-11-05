@@ -23,7 +23,7 @@ html,body{
 main{
     height: 100%;
     width: 100%;
-    background-image: url(https://github.com/ips99006/EduHunt/blob/6bbb62d226e893732e678db31ee29235f4c2e73f/bgc-01.jpg);
+    background-image: url(/main/bgc-01.jpg);
     background-size: cover;
 }
 

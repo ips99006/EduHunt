@@ -1,14 +1,14 @@
 @font-face {
     font-family: main;
-    src: url(/Russo_One.ttf) format("truetype"); 
+    src: url(Russo_One.ttf) format("truetype"); 
 }
 @font-face {
     font-family: sora;
-    src: url(/Sora-Regular.ttf) format("truetype");
+    src: url(Sora-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: sora-thin;
-    src: url(/Sora-Thin.ttf) format("truetype");
+    src: url(Sora-Thin.ttf) format("truetype");
 }
 *{
     margin: 0;
@@ -23,7 +23,7 @@ html,body{
 main{
     height: 100%;
     width: 100%;
-    background-image: url(/bgc-01.jpg);
+    background-image: url(bgc-01.jpg);
     background-size: cover;
 }
 

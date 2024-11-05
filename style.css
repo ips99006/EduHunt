@@ -76,7 +76,7 @@ main{
         justify-content: space-evenly;
     }
     .top img{
-        height: 38vh;
+        height: 25vh;
     }
     .maintext{
         display: flex;
@@ -86,12 +86,12 @@ main{
     .maintext h1{
         font-family: main;
         color: #FCDE73;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .maintext h5{
         font-family: sora;
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .bottom{
         height: 30%;

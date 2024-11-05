@@ -1,14 +1,14 @@
 @font-face {
     font-family: main;
-    src: url(Russo-One.ttf) format("truetype"); 
+    src: url(/Russo-One.ttf) format("truetype"); 
 }
 @font-face {
     font-family: sora;
-    src: url(Sora-Regular.ttf) format("truetype");
+    src: url(/Sora-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: sora-thin;
-    src: url(Sora-Thin.ttf) format("truetype");
+    src: url(/Sora-Thin.ttf) format("truetype");
 }
 *{
     margin: 0;
@@ -23,7 +23,7 @@ html,body{
 main{
     height: 100%;
     width: 100%;
-    background-image: url(bgc-01.jpg);
+    background-image: url(/bgc-01.jpg);
     background-size: cover;
 }
 
@@ -63,3 +63,49 @@ main{
     font-size: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+    main{
+        background-image: url(/bgc-02-02.jpg);
+    }
+    .top{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .top img{
+        height: 38vh;
+    }
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .maintext h1{
+        font-family: main;
+        color: #FCDE73;
+        font-size: 5rem;
+    }
+    .maintext h5{
+        font-family: sora;
+        color: #fff;
+        font-size: 2rem;
+    }
+    .bottom{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #8C8C8C;
+        font-family: sora-thin;
+        font-weight: 600;
+        gap: 3vh;
+        padding: 1.5vh;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}

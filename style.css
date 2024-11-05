@@ -1,0 +1,65 @@
+@font-face {
+    font-family: main;
+    src: url(/Russo_One.ttf) format("truetype"); 
+}
+@font-face {
+    font-family: sora;
+    src: url(/Sora-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: sora-thin;
+    src: url(/Sora-Thin.ttf) format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url(/bgc-01.jpg);
+    background-size: cover;
+}
+
+.top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maintext h1{
+    font-family: main;
+    color: #FCDE73;
+    font-size: 10rem;
+}
+.maintext h5{
+    font-family: sora;
+    color: #fff;
+    font-size: 3rem;
+}
+.bottom{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #8C8C8C;
+    font-family: sora-thin;
+    font-weight: 600;
+    gap: 3vh;
+    font-size: 1rem;
+}
+

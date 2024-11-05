@@ -63,7 +63,7 @@ main{
     font-size: 1rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
     main{
         background-image: url(/bgc-02-02.jpg);
     }
@@ -76,7 +76,7 @@ main{
         justify-content: space-evenly;
     }
     .top img{
-        height: 25vh;
+        height: 32vh;
     }
     .maintext{
         display: flex;
@@ -104,7 +104,7 @@ main{
         font-family: sora-thin;
         font-weight: 600;
         gap: 3vh;
-        padding: 1.5vh;
+        padding: 2vh;
         font-size: 0.8rem;
         text-align: center;
     }

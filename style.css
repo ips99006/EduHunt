@@ -49,6 +49,10 @@ main{
     color: #fff;
     font-size: 3rem;
 }
+.top img{
+    width: auto;
+    height: 55vh;
+}
 .bottom{
     height: 25%;
     width: 100%;
@@ -59,8 +63,12 @@ main{
     color: #8C8C8C;
     font-family: sora-thin;
     font-weight: 600;
-    gap: 3vh;
     font-size: 1rem;
+    padding: 2vw;
+    gap: 1vw;
+}
+.bottom p{
+    text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -105,6 +113,55 @@ main{
         font-weight: 600;
         gap: 3vh;
         padding: 2vh;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    main{
+        background-image: url(/bgc-02-02.jpg);
+        background-size: cover;
+    }
+    .top{
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .top img{
+        height: 35vh;
+    }
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .maintext h1{
+        font-family: main;
+        color: #FCDE73;
+        font-size: 6rem;
+    }
+    .maintext h5{
+        font-family: sora;
+        color: #fff;
+        font-size: 2rem;
+    }
+    .bottom{
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #8C8C8C;
+        font-family: sora-thin;
+        font-weight: 600;
+        gap: 3vh;
+        padding: 3vw;
         font-size: 0.8rem;
         text-align: center;
     }
